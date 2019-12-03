@@ -1,4 +1,4 @@
 # Wordpress R Menu plugin
 
-> convert R Menu plugin for wordpress.
+Convert R Menu plugin for wordpress.
 

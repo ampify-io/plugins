@@ -1,10 +1,10 @@
 # Ampify Utils
 
-> Utilities to use in plugins.
+Utilities to use in plugins.
 
 ### togglify
 
-> Generate amp toggle events on targets
+Generate amp toggle events on targets
 
 Accepts object:
 

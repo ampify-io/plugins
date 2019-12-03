@@ -1,4 +1,3 @@
-#Ampify Banner
+# Forms
 
-> Adds a banner at the bottom of the page with Ampify credit.
-
+Convert forms to support amp submission via proxy

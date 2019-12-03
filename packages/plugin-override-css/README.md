@@ -1,6 +1,6 @@
-#Override Css
+# Override Css
 
-> Add css classes.
+Add css classes.
 
 ### Options
 

@@ -13,12 +13,13 @@
 - [WP RMenu](./packages/plugin-wp-ez-toc-toggle)
 
 ### Utils
+
 - [Utils](./packages/utils)
 
 ### A plugin
 
-> Plugin is just an exported function, you have complete control
-> on the document as in the browser.
+Plugin is just an exported function, you have complete control
+on the document as in the browser.
 
 Example:
 
@@ -38,7 +39,7 @@ module.exports = () => {
 
 ### Plugin return object
 
-> Plugin can return an object with some settings:
+Plugin can return an object with some settings:
 
 - `classes` - Array of classes to not shorten.
 
@@ -56,13 +57,13 @@ export default () => {
 
 ### Build
 
-> Use `yarn build` command to create a bundled plugin in the dist folder.
+Use `yarn build` command to create a bundled plugin in the dist folder.
 
 ### Manually create plugin
 
-> Plugin is just a function exposed on the window object,
-> you can do it manually, however it is easier to use webpack configuration
-> and build it to use 3rd party dependencies.
+Plugin is just a function exposed on the window object,
+you can do it manually, however it is easier to use webpack configuration
+and build it to use 3rd party dependencies.
 
 Example:
 
