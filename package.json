@@ -1,6 +1,10 @@
 {
   "name": "root",
   "private": true,
+  "scripts": {
+    "version": "lerna version",
+    "build": "lerna run --parallel build"
+  },
   "workspaces": ["packages/*"],
   "devDependencies": {
     "husky": "^3.1.0",
@@ -26,5 +30,6 @@
     "hooks": {
       "pre-commit": "pretty-quick --staged"
     }
-  }
+  },
+  "version": "1.0.0"
 }

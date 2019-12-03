@@ -1,4 +1,4 @@
-import togglify from 'ampify-utils/togglify';
+import togglify from '@ampify/utils/togglify';
 
 export default (options = {}) => {
   const targets = [
