@@ -13,7 +13,10 @@
   "devDependencies": {
     "@babel/core": "^7.6.4",
     "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
-    "jest": "^24.9.0"
+    "jest": "^24.9.0",
+    "lodash.camelcase": "^4.3.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
   },
   "gitHead": "0c1dab174c3a5193ccd408ce1ec8b79d2ac71339"
 }
