@@ -1,0 +1,17 @@
+{
+  "name": "@ampify/plugin-ampify-banner",
+  "version": "0.0.0",
+  "main": "./src",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
+    "jest": "^24.9.0"
+  },
+  "dependencies": {
+    "prettier": "^1.19.1"
+  }
+}
