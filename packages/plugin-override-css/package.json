@@ -12,6 +12,9 @@
     "jest": "^24.9.0"
   },
   "dependencies": {
-    "prettier": "^1.19.1"
+    "lodash.camelcase": "^4.3.0",
+    "prettier": "^1.19.1",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
   }
 }
