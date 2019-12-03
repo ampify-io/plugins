@@ -1,6 +1,6 @@
 {
   "name": "@ampify/utils",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
@@ -11,8 +11,8 @@
     "nanoid": "^2.1.6"
   },
   "devDependencies": {
-    "jest": "^24.9.0",
     "@babel/core": "^7.6.4",
-    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2"
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
+    "jest": "^24.9.0"
   }
 }
