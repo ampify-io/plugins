@@ -18,5 +18,6 @@
     "lodash.camelcase": "^4.3.0",
     "webpack": "^4.41.2",
     "webpack-cli": "^3.3.10"
-  }
+  },
+  "gitHead": "5f5c858129fb7e77cd879c4081fb6463cc757a52"
 }
