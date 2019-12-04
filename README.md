@@ -19,7 +19,7 @@
 ### A plugin
 
 Plugin is just an exported function, you have complete control
-on the document as in the browser.
+on the `document` as in the browser.
 
 Example:
 
@@ -29,7 +29,7 @@ export default () => {
 };
 ```
 
-You cam also use module.exports:
+You can also use module.exports:
 
 ```javascript
 module.exports = () => {
