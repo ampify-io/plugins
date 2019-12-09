@@ -1,4 +1,4 @@
-const {  name } = require('./package');
+const { name } = require('./package');
 const camelCase = require('lodash.camelcase');
 
 const packageName = camelCase(name.replace('@ampify/plugin-', ''));

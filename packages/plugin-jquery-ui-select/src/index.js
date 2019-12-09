@@ -20,7 +20,7 @@ export default (options = {}) => {
   const select = document.querySelector('#cats');
   const span = document.querySelector('#cats-button');
 
-  if(!select) return;
+  if (!select) return;
 
   select.removeAttribute('style');
 
@@ -38,4 +38,3 @@ export default (options = {}) => {
 
   select.setAttribute('on', 'change:AMP.navigateTo(url=event.value)');
 };
-

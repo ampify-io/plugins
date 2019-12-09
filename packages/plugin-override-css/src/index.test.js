@@ -1,11 +1,11 @@
-import { prepare, run } from './';
+import exec from './';
 
 beforeAll(() => {
   document.documentElement.innerHTML = `<html lang="en"><body></body></html>`;
 });
 
 test('prepare', () => {
-  prepare({
+  exec({
     rules: [
       'div { color: red}',
       'body { background: blue }',
@@ -16,5 +16,3 @@ test('prepare', () => {
 
   expect(document.documentElement.outerHTML).toMatchSnapshot();
 });
-
-test('run', () => {});

@@ -9,7 +9,9 @@ export default ({ el, targets }) => {
   el.setAttribute('ampify-keep', '');
 
   targets.forEach(({ el, className, remove = false }) => {
-    const cls = remove ? ` (__ampify__toggle__${id} ? ' ${className}': '')` : ` (__ampify__toggle__${id} ? '': ' ${className}')`;
+    const cls = remove
+      ? ` (__ampify__toggle__${id} ? ' ${className}': '')`
+      : ` (__ampify__toggle__${id} ? '': ' ${className}')`;
     el.setAttribute('data-amp-bind-class', `'${el.className}' + ${cls}`);
     el.setAttribute('ampify-keep', '');
   });
