@@ -61,5 +61,4 @@ typings/
 .next
 .idea
 yarn.lock
-dist
 .DS_Store
